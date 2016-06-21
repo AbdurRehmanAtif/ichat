@@ -1,25 +1,147 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="NotoSans-Bold.ttf">
+            <string>NotoSans-Bold</string>
+            <string>NotoSans-Bold</string>
+            <string>NotoSans-Bold</string>
+            <string>NotoSans-Bold</string>
+        </mutableArray>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PicSharing" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="640-CH-Yaw">
+                                <rect key="frame" x="-4" y="0.0" width="383" height="667"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coming-soon_logo" translatesAutoresizingMaskIntoConstraints="NO" id="hOZ-Fb-0ag">
+                                        <rect key="frame" x="118" y="34" width="146" height="128"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="128" id="kdy-Xa-R51"/>
+                                            <constraint firstAttribute="width" constant="146" id="rUW-LG-Sh3"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Signin/Signup" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f6D-Fg-cxC">
+                                        <rect key="frame" x="42" y="203" width="121" height="27"/>
+                                        <fontDescription key="fontDescription" name="NotoSans-Bold" family="Noto Sans" pointSize="16"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Email Adddres" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pYr-3v-ZfX">
+                                        <rect key="frame" x="42" y="238" width="299" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="Shp-Nx-gNv"/>
+                                            <constraint firstAttribute="width" constant="299" id="YuZ-1j-YHH"/>
+                                            <constraint firstAttribute="width" constant="299" id="eR5-CQ-02h"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="NotoSans-Bold" family="Noto Sans" pointSize="15"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="Shp-Nx-gNv"/>
+                                                <exclude reference="eR5-CQ-02h"/>
+                                            </mask>
+                                        </variation>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tH0-je-xEJ">
+                                        <rect key="frame" x="42" y="276" width="299" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="299" id="AiF-bv-0wf"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="NotoSans-Bold" family="Noto Sans" pointSize="16"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kVT-FF-dSg">
+                                        <rect key="frame" x="112" y="321" width="159" height="30"/>
+                                        <color key="backgroundColor" red="0.78265072601010099" green="0.0" blue="0.35940379973562808" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="159" id="zLN-bP-pLw"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="NotoSans-Bold" family="Noto Sans" pointSize="16"/>
+                                        <state key="normal" title="Click to Signin">
+                                            <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kb6-rN-ZhY">
+                                        <rect key="frame" x="56" y="377" width="271" height="43"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="271" id="HXf-RI-d4w"/>
+                                            <constraint firstAttribute="height" constant="43" id="zDC-Se-Z9d"/>
+                                        </constraints>
+                                        <state key="normal" image="fblogin"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="hOZ-Fb-0ag" firstAttribute="top" secondItem="640-CH-Yaw" secondAttribute="top" constant="34" id="10j-PG-hun"/>
+                                    <constraint firstItem="pYr-3v-ZfX" firstAttribute="top" secondItem="hOZ-Fb-0ag" secondAttribute="bottom" constant="76" id="2s5-Kf-V4E"/>
+                                    <constraint firstItem="f6D-Fg-cxC" firstAttribute="leading" secondItem="hOZ-Fb-0ag" secondAttribute="leading" id="3XC-i8-CRK"/>
+                                    <constraint firstItem="pYr-3v-ZfX" firstAttribute="top" secondItem="f6D-Fg-cxC" secondAttribute="bottom" constant="8" id="4Na-Pk-51I"/>
+                                    <constraint firstItem="pYr-3v-ZfX" firstAttribute="centerX" secondItem="640-CH-Yaw" secondAttribute="centerX" id="LWP-LQ-uTR"/>
+                                    <constraint firstItem="f6D-Fg-cxC" firstAttribute="width" secondItem="hOZ-Fb-0ag" secondAttribute="width" id="MyK-Q1-EA0"/>
+                                    <constraint firstItem="tH0-je-xEJ" firstAttribute="centerX" secondItem="640-CH-Yaw" secondAttribute="centerX" id="TdU-RQ-7fK"/>
+                                    <constraint firstItem="f6D-Fg-cxC" firstAttribute="width" secondItem="640-CH-Yaw" secondAttribute="width" id="VE7-Rw-Vaf"/>
+                                    <constraint firstItem="pYr-3v-ZfX" firstAttribute="top" secondItem="hOZ-Fb-0ag" secondAttribute="bottom" constant="76" id="aMy-1F-cMe"/>
+                                    <constraint firstItem="pYr-3v-ZfX" firstAttribute="top" secondItem="f6D-Fg-cxC" secondAttribute="bottom" constant="8" id="dH1-Of-qkz"/>
+                                    <constraint firstItem="pYr-3v-ZfX" firstAttribute="top" secondItem="f6D-Fg-cxC" secondAttribute="bottom" constant="17" id="efj-NH-9IO"/>
+                                    <constraint firstItem="hOZ-Fb-0ag" firstAttribute="centerX" secondItem="640-CH-Yaw" secondAttribute="centerX" id="exV-KR-aZA"/>
+                                    <constraint firstItem="f6D-Fg-cxC" firstAttribute="leading" secondItem="640-CH-Yaw" secondAttribute="leading" id="iYB-Cz-GFo"/>
+                                    <constraint firstItem="pYr-3v-ZfX" firstAttribute="top" secondItem="f6D-Fg-cxC" secondAttribute="bottom" constant="17" id="jaN-dC-E8s"/>
+                                    <constraint firstItem="kVT-FF-dSg" firstAttribute="top" secondItem="tH0-je-xEJ" secondAttribute="bottom" constant="14" id="kuA-gm-chd"/>
+                                    <constraint firstItem="kVT-FF-dSg" firstAttribute="centerX" secondItem="640-CH-Yaw" secondAttribute="centerX" id="nOT-aE-FHw"/>
+                                    <constraint firstItem="kb6-rN-ZhY" firstAttribute="top" secondItem="kVT-FF-dSg" secondAttribute="bottom" constant="26" id="nrG-Ua-SsK"/>
+                                    <constraint firstItem="pYr-3v-ZfX" firstAttribute="centerX" secondItem="640-CH-Yaw" secondAttribute="centerX" id="v7Y-10-o26"/>
+                                    <constraint firstItem="pYr-3v-ZfX" firstAttribute="leading" secondItem="f6D-Fg-cxC" secondAttribute="leading" id="xhv-dA-ToS"/>
+                                    <constraint firstItem="tH0-je-xEJ" firstAttribute="top" secondItem="pYr-3v-ZfX" secondAttribute="bottom" constant="8" id="z6f-QI-hrf"/>
+                                    <constraint firstItem="kb6-rN-ZhY" firstAttribute="centerX" secondItem="640-CH-Yaw" secondAttribute="centerX" id="zLo-LJ-1jc"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="3XC-i8-CRK"/>
+                                        <exclude reference="MyK-Q1-EA0"/>
+                                        <exclude reference="VE7-Rw-Vaf"/>
+                                        <exclude reference="iYB-Cz-GFo"/>
+                                        <exclude reference="4Na-Pk-51I"/>
+                                        <exclude reference="aMy-1F-cMe"/>
+                                        <exclude reference="dH1-Of-qkz"/>
+                                        <exclude reference="jaN-dC-E8s"/>
+                                        <exclude reference="v7Y-10-o26"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="640-CH-Yaw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="8fj-iA-huX"/>
+                            <constraint firstItem="640-CH-Yaw" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="JGq-MX-Ueq"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="640-CH-Yaw" secondAttribute="bottom" id="MUA-5U-6co"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="640-CH-Yaw" secondAttribute="trailing" constant="-20" id="mUV-NE-jIs"/>
+                        </constraints>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="121" y="431"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="coming-soon_logo" width="268" height="268"/>
+        <image name="fblogin" width="383" height="66"/>
+    </resources>
 </document>

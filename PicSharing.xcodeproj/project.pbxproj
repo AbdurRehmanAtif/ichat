@@ -12,6 +12,14 @@
 		0ACB589C1D1972210088E0B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ACB589A1D1972210088E0B5 /* Main.storyboard */; };
 		0ACB589E1D1972210088E0B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ACB589D1D1972210088E0B5 /* Assets.xcassets */; };
 		0ACB58A11D1972210088E0B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ACB589F1D1972210088E0B5 /* LaunchScreen.storyboard */; };
+		0ACB58AD1D19C3310088E0B5 /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0ACB58A91D19C3310088E0B5 /* NotoSans-Bold.ttf */; };
+		0ACB58AE1D19C3310088E0B5 /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0ACB58AA1D19C3310088E0B5 /* NotoSans-BoldItalic.ttf */; };
+		0ACB58AF1D19C3310088E0B5 /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0ACB58AB1D19C3310088E0B5 /* NotoSans-Italic.ttf */; };
+		0ACB58B01D19C3310088E0B5 /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0ACB58AC1D19C3310088E0B5 /* NotoSans-Regular.ttf */; };
+		0ACB58B41D19CB910088E0B5 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ACB58B21D19CB910088E0B5 /* Bolts.framework */; };
+		0ACB58B51D19CB910088E0B5 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ACB58B31D19CB910088E0B5 /* FBSDKLoginKit.framework */; };
+		0ACB58B71D19CBC50088E0B5 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ACB58B61D19CBC50088E0B5 /* FBSDKCoreKit.framework */; };
+		B5933181D196DA5EDE1A6D00 /* Pods_PicSharing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B04B91D28E6C2FD4B9BECC1B /* Pods_PicSharing.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,16 @@
 		0ACB589D1D1972210088E0B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0ACB58A01D1972210088E0B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0ACB58A21D1972210088E0B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0ACB58A91D19C3310088E0B5 /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
+		0ACB58AA1D19C3310088E0B5 /* NotoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		0ACB58AB1D19C3310088E0B5 /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Italic.ttf"; sourceTree = "<group>"; };
+		0ACB58AC1D19C3310088E0B5 /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
+		0ACB58B21D19CB910088E0B5 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		0ACB58B31D19CB910088E0B5 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		0ACB58B61D19CBC50088E0B5 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		1E3E63CD68DAE570478A8A95 /* Pods-PicSharing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PicSharing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PicSharing/Pods-PicSharing.debug.xcconfig"; sourceTree = "<group>"; };
+		B04B91D28E6C2FD4B9BECC1B /* Pods_PicSharing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PicSharing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4016DD0A02679226A35F3E1 /* Pods-PicSharing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PicSharing.release.xcconfig"; path = "Pods/Target Support Files/Pods-PicSharing/Pods-PicSharing.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +47,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5933181D196DA5EDE1A6D00 /* Pods_PicSharing.framework in Frameworks */,
+				0ACB58B71D19CBC50088E0B5 /* FBSDKCoreKit.framework in Frameworks */,
+				0ACB58B41D19CB910088E0B5 /* Bolts.framework in Frameworks */,
+				0ACB58B51D19CB910088E0B5 /* FBSDKLoginKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +62,8 @@
 			children = (
 				0ACB58951D1972210088E0B5 /* PicSharing */,
 				0ACB58941D1972210088E0B5 /* Products */,
+				550729ED887DA37BBA4887B3 /* Pods */,
+				7312730574E4F99597CE2BB5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +78,8 @@
 		0ACB58951D1972210088E0B5 /* PicSharing */ = {
 			isa = PBXGroup;
 			children = (
+				0ACB58B11D19CB6D0088E0B5 /* FrameWork */,
+				0ACB58A81D19C2C60088E0B5 /* AssertsFromOutsource */,
 				0ACB58961D1972210088E0B5 /* AppDelegate.swift */,
 				0ACB58981D1972210088E0B5 /* ViewController.swift */,
 				0ACB589A1D1972210088E0B5 /* Main.storyboard */,
@@ -64,6 +90,44 @@
 			path = PicSharing;
 			sourceTree = "<group>";
 		};
+		0ACB58A81D19C2C60088E0B5 /* AssertsFromOutsource */ = {
+			isa = PBXGroup;
+			children = (
+				0ACB58A91D19C3310088E0B5 /* NotoSans-Bold.ttf */,
+				0ACB58AA1D19C3310088E0B5 /* NotoSans-BoldItalic.ttf */,
+				0ACB58AB1D19C3310088E0B5 /* NotoSans-Italic.ttf */,
+				0ACB58AC1D19C3310088E0B5 /* NotoSans-Regular.ttf */,
+			);
+			name = AssertsFromOutsource;
+			sourceTree = "<group>";
+		};
+		0ACB58B11D19CB6D0088E0B5 /* FrameWork */ = {
+			isa = PBXGroup;
+			children = (
+				0ACB58B61D19CBC50088E0B5 /* FBSDKCoreKit.framework */,
+				0ACB58B21D19CB910088E0B5 /* Bolts.framework */,
+				0ACB58B31D19CB910088E0B5 /* FBSDKLoginKit.framework */,
+			);
+			name = FrameWork;
+			sourceTree = "<group>";
+		};
+		550729ED887DA37BBA4887B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E3E63CD68DAE570478A8A95 /* Pods-PicSharing.debug.xcconfig */,
+				C4016DD0A02679226A35F3E1 /* Pods-PicSharing.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7312730574E4F99597CE2BB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B04B91D28E6C2FD4B9BECC1B /* Pods_PicSharing.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +135,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0ACB58A51D1972210088E0B5 /* Build configuration list for PBXNativeTarget "PicSharing" */;
 			buildPhases = (
+				F40FB19CE8323AB7A0B9E12E /* 📦 Check Pods Manifest.lock */,
 				0ACB588F1D1972210088E0B5 /* Sources */,
 				0ACB58901D1972210088E0B5 /* Frameworks */,
 				0ACB58911D1972210088E0B5 /* Resources */,
+				0868F8AF43B70971078076AB /* 📦 Embed Pods Frameworks */,
+				0CCBFEEB6A02BEC0FEC322BB /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,13 +190,65 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ACB58AD1D19C3310088E0B5 /* NotoSans-Bold.ttf in Resources */,
 				0ACB58A11D1972210088E0B5 /* LaunchScreen.storyboard in Resources */,
+				0ACB58AE1D19C3310088E0B5 /* NotoSans-BoldItalic.ttf in Resources */,
+				0ACB58AF1D19C3310088E0B5 /* NotoSans-Italic.ttf in Resources */,
 				0ACB589E1D1972210088E0B5 /* Assets.xcassets in Resources */,
 				0ACB589C1D1972210088E0B5 /* Main.storyboard in Resources */,
+				0ACB58B01D19C3310088E0B5 /* NotoSans-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0868F8AF43B70971078076AB /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PicSharing/Pods-PicSharing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0CCBFEEB6A02BEC0FEC322BB /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PicSharing/Pods-PicSharing-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F40FB19CE8323AB7A0B9E12E /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0ACB588F1D1972210088E0B5 /* Sources */ = {
@@ -250,22 +369,32 @@
 		};
 		0ACB58A61D1972210088E0B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E3E63CD68DAE570478A8A95 /* Pods-PicSharing.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PicSharing",
+				);
 				INFOPLIST_FILE = PicSharing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ioCodex.PicSharing;
+				PRODUCT_BUNDLE_IDENTIFIER = com.picSharing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		0ACB58A71D1972210088E0B5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4016DD0A02679226A35F3E1 /* Pods-PicSharing.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PicSharing",
+				);
 				INFOPLIST_FILE = PicSharing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ioCodex.PicSharing;
+				PRODUCT_BUNDLE_IDENTIFIER = com.picSharing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -289,6 +418,7 @@
 				0ACB58A71D1972210088E0B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
