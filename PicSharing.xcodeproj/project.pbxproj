@@ -19,6 +19,7 @@
 		0ACB58B41D19CB910088E0B5 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ACB58B21D19CB910088E0B5 /* Bolts.framework */; };
 		0ACB58B51D19CB910088E0B5 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ACB58B31D19CB910088E0B5 /* FBSDKLoginKit.framework */; };
 		0ACB58B71D19CBC50088E0B5 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ACB58B61D19CBC50088E0B5 /* FBSDKCoreKit.framework */; };
+		0ACB58BF1D19E5D20088E0B5 /* FcaebookLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACB58BE1D19E5D20088E0B5 /* FcaebookLogin.swift */; };
 		B5933181D196DA5EDE1A6D00 /* Pods_PicSharing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B04B91D28E6C2FD4B9BECC1B /* Pods_PicSharing.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,7 @@
 		0ACB58B21D19CB910088E0B5 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		0ACB58B31D19CB910088E0B5 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		0ACB58B61D19CBC50088E0B5 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		0ACB58BE1D19E5D20088E0B5 /* FcaebookLogin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FcaebookLogin.swift; sourceTree = "<group>"; };
 		1E3E63CD68DAE570478A8A95 /* Pods-PicSharing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PicSharing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PicSharing/Pods-PicSharing.debug.xcconfig"; sourceTree = "<group>"; };
 		B04B91D28E6C2FD4B9BECC1B /* Pods_PicSharing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PicSharing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4016DD0A02679226A35F3E1 /* Pods-PicSharing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PicSharing.release.xcconfig"; path = "Pods/Target Support Files/Pods-PicSharing/Pods-PicSharing.release.xcconfig"; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 				0ACB58B11D19CB6D0088E0B5 /* FrameWork */,
 				0ACB58A81D19C2C60088E0B5 /* AssertsFromOutsource */,
 				0ACB58961D1972210088E0B5 /* AppDelegate.swift */,
+				0ACB58BE1D19E5D20088E0B5 /* FcaebookLogin.swift */,
 				0ACB58981D1972210088E0B5 /* ViewController.swift */,
 				0ACB589A1D1972210088E0B5 /* Main.storyboard */,
 				0ACB589D1D1972210088E0B5 /* Assets.xcassets */,
@@ -255,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ACB58BF1D19E5D20088E0B5 /* FcaebookLogin.swift in Sources */,
 				0ACB58991D1972210088E0B5 /* ViewController.swift in Sources */,
 				0ACB58971D1972210088E0B5 /* AppDelegate.swift in Sources */,
 			);
@@ -303,6 +307,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -349,6 +354,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;

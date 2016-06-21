@@ -77,13 +77,16 @@
                                             <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                         </state>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kb6-rN-ZhY">
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kb6-rN-ZhY" customClass="classForButtonFB" customModule="PicSharing" customModuleProvider="target">
                                         <rect key="frame" x="56" y="377" width="271" height="43"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="271" id="HXf-RI-d4w"/>
                                             <constraint firstAttribute="height" constant="43" id="zDC-Se-Z9d"/>
                                         </constraints>
                                         <state key="normal" image="fblogin"/>
+                                        <connections>
+                                            <action selector="FacebookButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YfH-Mq-HoF"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -137,7 +140,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="121" y="431"/>
+            <point key="canvasLocation" x="507.5" y="394.5"/>
         </scene>
     </scenes>
     <resources>

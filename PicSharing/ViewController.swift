@@ -7,13 +7,33 @@
 //
 
 import UIKit
+import FBSDKCoreKit
+import FBSDKLoginKit
+
+
+
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+         
+            
+        
+        
     }
+    
+
+    @IBAction func FacebookButton(sender: AnyObject) {
+    
+       facebookLoginFunction()
+
+    }
+    
+    
+    
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
